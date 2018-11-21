@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rix.tossit.test.validator.BasicGameValidatorSpec" tests="7" skipped="0" failures="2" errors="0" timestamp="2018-11-10T21:27:38" hostname="DESKTOP-8CHKTSJ" time="0.269">
+  <properties/>
+  <testcase name="Test Good Column Movement of Pawn" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.044"/>
+  <testcase name="Test Good Row Movement of Pawn" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.015"/>
+  <testcase name="Test Good Diagonal Movement of Pawn" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.03"/>
+  <testcase name="Test Good Movement of Ball Only" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.019"/>
+  <testcase name="Test Good Movement of Ball and Pawn" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.008"/>
+  <testcase name="Test Bad Movement of Ball and Pawn" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.023">
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball and Pawn(BasicGameValidatorSpec.groovy:152)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball and Pawn(BasicGameValidatorSpec.groovy:152)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball and Pawn(BasicGameValidatorSpec.groovy:152)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball and Pawn(BasicGameValidatorSpec.groovy:152)
+</failure>
+  </testcase>
+  <testcase name="Test Bad Movement of Ball Only" classname="com.rix.tossit.test.validator.BasicGameValidatorSpec" time="0.13">
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but got 'java.lang.ArrayIndexOutOfBoundsException'" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but got 'java.lang.ArrayIndexOutOfBoundsException'
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.rix.tossit.validation.BasicGameValidator.determineMoveValid(BasicGameValidator.java:95)
+	at com.rix.tossit.validation.BasicGameValidator.validateMove(BasicGameValidator.java:49)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:172)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but got 'java.lang.ArrayIndexOutOfBoundsException'" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but got 'java.lang.ArrayIndexOutOfBoundsException'
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.rix.tossit.validation.BasicGameValidator.determineMoveValid(BasicGameValidator.java:95)
+	at com.rix.tossit.validation.BasicGameValidator.validateMove(BasicGameValidator.java:49)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:172)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+    <failure message="Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'com.rix.tossit.exception.InvalidMoveException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:72)
+	at com.rix.tossit.test.validator.BasicGameValidatorSpec.Test Bad Movement of Ball Only(BasicGameValidatorSpec.groovy:175)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+E E E Y W E E W 
+W W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:0
+toRow:0
+fromCol:0
+fromRow:1
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+E E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+W G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:0
+toRow:0
+fromCol:0
+fromRow:6
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+prevBoard: E
+y: 1   highCol:0
+prevBoard: E
+y: 2   highCol:0
+prevBoard: E
+y: 3   highCol:0
+prevBoard: E
+y: 4   highCol:0
+prevBoard: E
+y: 5   highCol:0
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W E Y W E E W 
+E E E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:1
+toRow:0
+fromCol:1
+fromRow:1
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E W E E W E 
+E E W E E W E E 
+E E E E W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:3
+toRow:1
+fromCol:3
+fromRow:3
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+prevBoard: E
+y: 2   highCol:3
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+E W E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:0
+toRow:0
+fromCol:1
+fromRow:0
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E W E 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:6
+toRow:0
+fromCol:7
+fromRow:0
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+W E E E W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:0
+toRow:3
+fromCol:3
+fromRow:3
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+prevBoard: E
+x: 1   highRow:3
+prevBoard: E
+x: 2   highRow:3
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W E E E W 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:4
+toRow:3
+fromCol:7
+fromRow:3
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+prevBoard: E
+x: 5   highRow:3
+prevBoard: E
+x: 6   highRow:3
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E E E E E E W E 
+W E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:1
+toRow:1
+fromCol:0
+fromRow:2
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E E W E E E 
+E E E G G E E E 
+E E G E E G E E 
+W G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:3
+toRow:3
+fromCol:0
+fromRow:6
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E E E 
+E E W E E W E W 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:6
+toRow:1
+fromCol:7
+fromRow:2
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y E E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E W 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:E
+p2:E
+att2:W
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:4
+toRow:0
+fromCol:7
+fromRow:3
+p1:W
+att1:E
+p2:E
+att2:W
+Pawn Only 2/2
+
+[5][1] = E
+     y = 2
+[6][2] = E
+     y = 3
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W W E W 
+E W E E E E E E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:5
+toRow:0
+fromCol:6
+fromRow:1
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:1
+toRow:0
+fromCol:4
+fromRow:3
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+[2][1] = E
+     y = 2
+[3][2] = E
+     y = 3
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E W E E W E 
+E E E E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:3
+toRow:1
+fromCol:2
+fromRow:2
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E W W 
+E W E E E E W E 
+E E W E E W E E 
+E E E E W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:W
+p2:W
+att2:E
+about to check which type of piece move it is
+Pawn Only 1/2
+toCol:6
+toRow:0
+fromCol:3
+fromRow:3
+p1:E
+att1:W
+p2:W
+att2:E
+Pawn Only 2/2
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E Y W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:3
+fromRow:3
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+prevBoard: E
+y: 1   highCol:2
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E Y W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:3
+fromRow:3
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+prevBoard: E
+y: 1   highCol:2
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W Y E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:4
+fromRow:0
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W Y E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:4
+fromRow:0
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E W E E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E Y E E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:1
+fromRow:2
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W W E E W 
+E W E E E E W E 
+E Y E E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E W E E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:1
+fromRow:2
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E Y E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:5
+fromRow:2
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E Y E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:5
+fromRow:2
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E Y E W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:2
+toRow:0
+fromCol:3
+fromRow:0
+p1:E
+att1:Y
+p2:Y
+att2:E
+
+
+W E Y E W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:E
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:2
+toRow:0
+fromCol:3
+fromRow:0
+p1:Y
+att1:E
+p2:E
+att2:Y
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E E W E E W 
+E W E Y E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:E
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:3
+fromRow:1
+p1:Y
+att1:E
+p2:E
+att2:Y
+
+
+W E E E W E E W 
+E W E Y E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:3
+fromRow:1
+p1:E
+att1:Y
+p2:Y
+att2:E
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E E W E E W 
+E W Y E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:E
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:2
+fromRow:1
+p1:Y
+att1:E
+p2:E
+att2:Y
+
+
+W E E E W E E W 
+E W Y E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:2
+fromRow:1
+p1:E
+att1:Y
+p2:Y
+att2:E
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E E W E E W 
+E W E E Y E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:E
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:4
+fromRow:1
+p1:Y
+att1:E
+p2:E
+att2:Y
+
+
+W E E E W E E W 
+E W E E Y E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:E
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:3
+toRow:0
+fromCol:4
+fromRow:1
+p1:E
+att1:Y
+p2:Y
+att2:E
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W Y W E E E E E 
+W E W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:1
+toRow:0
+fromCol:1
+fromRow:1
+p1:W
+att1:Y
+p2:Y
+att2:E
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W W E E E E E 
+W E W E E E E E 
+W Y W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:1
+toRow:1
+fromCol:1
+fromRow:2
+p1:Y
+att1:E
+p2:W
+att2:Y
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W W E E E E E 
+W E Y E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:1
+toRow:1
+fromCol:2
+fromRow:1
+p1:Y
+att1:E
+p2:W
+att2:Y
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W W E E E E E 
+Y E W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:1
+fromCol:1
+fromRow:1
+p1:W
+att1:Y
+p2:Y
+att2:E
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+Y W W E E E E E 
+W E W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:1
+fromRow:1
+p1:W
+att1:Y
+p2:Y
+att2:E
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W Y E E E E E 
+W E W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:E
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:2
+toRow:0
+fromCol:1
+fromRow:1
+p1:W
+att1:Y
+p2:Y
+att2:E
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W W E E E E E 
+W E W E E E E E 
+W W Y E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:1
+toRow:1
+fromCol:2
+fromRow:2
+p1:Y
+att1:E
+p2:W
+att2:Y
+
+
+W W W E E E E E 
+W Y W E E E E E 
+W W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W W W E E E E E 
+W E W E E E E E 
+Y W W E E E E E 
+E E E E E E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:E
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Pawn  1/2
+toCol:1
+toRow:1
+fromCol:0
+fromRow:2
+p1:Y
+att1:E
+p2:W
+att2:Y
+
+
+W E E Y W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E Y 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:3
+toRow:0
+fromCol:7
+fromRow:0
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W Y E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+Y E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:4
+fromRow:0
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+W E E W Y E E W 
+E W E E W E E E 
+E E W E W E E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E W E E E 
+E E W E Y E E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:4
+toRow:0
+fromCol:4
+fromRow:2
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W W E E W 
+E W E E W E E E 
+E E W E Y E E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W Y E E W 
+E W E E W E E E 
+E E W E W E E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:4
+toRow:0
+fromCol:4
+fromRow:2
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+Y E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E Y E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:2
+fromRow:2
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E Y E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+Y E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:2
+fromRow:2
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+W E E W W E E Y 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E Y E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:W
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:7
+toRow:0
+fromCol:5
+fromRow:2
+p1:Y
+att1:W
+p2:W
+att2:Y
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E Y E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E Y 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:W
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:7
+toRow:0
+fromCol:5
+fromRow:2
+p1:W
+att1:Y
+p2:Y
+att2:W
+
+
+Y E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+Y E E G X E E G 
+
+
+firstCheck
+p1:Y
+att1:W
+p2:G
+att2:Y
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:0
+fromRow:7
+p1:Y
+att1:W
+p2:G
+att2:Y
+
+
+W E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+Y E E G X E E G 
+
+
+
+Y E E W W E E W 
+E W E E E E W E 
+E E W E E W E E 
+E E E W W E E E 
+E E E G G E E E 
+E E G E E G E E 
+E G E E E E G E 
+G E E G X E E G 
+
+
+firstCheck
+p1:W
+att1:Y
+p2:Y
+att2:G
+about to check which type of piece move it is
+Ball Only 2/2
+toCol:0
+toRow:0
+fromCol:0
+fromRow:7
+p1:W
+att1:Y
+p2:Y
+att2:G
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

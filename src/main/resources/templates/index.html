@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+ 
+    <title>TOSS IT!!!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+	<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    
+    <script type="text/javascript" th:src="@{/index.js}" />
+    
+</head>
+<body>
+<div>
+    <tabs>
+        <tab name="First tab">
+            First tab content
+        </tab>
+        <tab name="Second tab">
+            Second tab content
+        </tab>
+        <tab name="Third tab">
+            Third tab content
+        </tab>
+    </tabs>
+</div>
+
+<!--
+<canvas id="canvas" width="300" height="300"></canvas>
+  
+	<div id="app">
+		
+		{{title}}
+		<ul>
+	        <li style="list-style-type:none" v-for="person in people">
+	            <user-info
+	                    v-bind:thing="person" v-bind:key="person.id">
+	            </user-info>
+	        </li>
+	     </ul>
+	</div>
+
+	
+	<ul th:each="user: ${users}">
+	    <li th:text="${user.getPwd()}" />
+	    <li th:text="${user.getUserName()}" />
+	</ul>
+	
+	-->
+
+</body>
+</html>
